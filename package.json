@@ -2,7 +2,7 @@
   "name": "disco-vc-validation",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Kames",
+  "author": "kames.eth",
   "main": "dist/index.js",
   "module": "dist/disco-vc-validation.esm.js",
   "typings": "dist/index.d.ts",
@@ -46,5 +46,23 @@
       "path": "dist/disco-vc-validation.esm.js",
       "limit": "10 KB"
     }
-  ]
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.2.4",
+    "@tsconfig/recommended": "^1.0.2",
+    "dts-cli": "^2.0.2",
+    "husky": "^8.0.3",
+    "size-limit": "^8.2.4",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@ceramicnetwork/3id-did-resolver": "^2.9.0",
+    "@ceramicnetwork/http-client": "^2.10.0",
+    "@ceramicnetwork/stream-caip10-link": "^2.8.0",
+    "@metamask/eth-sig-util": "^5.0.0",
+    "did-jwt": "^6.11.0",
+    "did-resolver": "^4.0.1",
+    "jsonwebtoken": "^8.5.1"
+  }
 }
