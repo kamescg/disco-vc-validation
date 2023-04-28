@@ -1,26 +1,6 @@
-# DTS User Guide
+# Disco Verifiable Credential Validation
 
-Congrats! You just saved yourself hours of work by bootstrapping this project with DTS. Let’s get you oriented with what’s here and how to use it.
-
-> This DTS setup is meant for developing libraries (not apps!) that can be published to NPM. If you’re looking to build a Node app, you could use `ts-node-dev`, plain `ts-node`, or simple `tsc`.
-
-> If you’re new to TypeScript, checkout [this handy cheatsheet](https://devhints.io/typescript)
-
-## Commands
-
-DTS scaffolds your new library inside `/src`.
-
-To run DTS, use:
-
-```bash
-npm start # or yarn start
-```
-
-This builds to `/dist` and runs the project in watch mode so any edits you save inside `src` causes a rebuild to `/dist`.
-
-To do a one-off build, use `npm run build` or `yarn build`.
-
-To run tests, use `npm test` or `yarn test`.
+A simple package for validating Disco verifiable credentials.
 
 ## Configuration
 
